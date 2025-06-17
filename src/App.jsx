@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { supabase } from '../lib/supabase';
+import { supabase } from './lib/supabase';
 import ForumLayout from '../components/ForumLayout';
 import ProfilePage from '../components/ProfilePage';
 import AuthForm from '../components/AuthForm';
